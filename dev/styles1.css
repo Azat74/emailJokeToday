@@ -37,7 +37,7 @@ td {
 }
 
 .header {
-    height: 120px;
+    height: 140px;
     vertical-align: bottom;
 }
 
@@ -45,15 +45,15 @@ td {
     text-align: center;
 }
 
-.height50px {
-    height: 50px;
+.height42px {
+    height: 42px;
     width: 100%;
 }
 
-.height70px {
+/*.height70px {
     height: 70px;
     width: 100%;
-}
+}*/
 
 
 /*.height50px td {
@@ -74,6 +74,7 @@ td {
     font-weight: 900;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    letter-spacing: -1px;
 }
 
 .mainTextRow {
@@ -97,11 +98,6 @@ td {
     letter-spacing: -0.7px;
 }
 
-.quoteRow {
-    height: 48px;
-    /*border-top: 100px solid transparent;*/
-}
-
 .mainTextCell p {
     content: "";
     background-image: url("https://s26.postimg.org/w4v7809t5/quote.png");
@@ -110,17 +106,12 @@ td {
     /*background-position-y: -10px;*/
     padding-top: 10px;
     /*width: 560px;*/
-}
-
-.quoteCell img {
-    margin-bottom: -100px;
-    margin-left: 30px;
+    -webkit-margin-after: 1em;
 }
 
 .usTextRow {
-    height: 17px;
-    text-align:center;
-    width:100%;
+    vertical-align: top;
+    box-sizing: border-box;
 }
 
 .usTextCell {
@@ -128,25 +119,26 @@ td {
     width:100%;
 }
 
-.usTextCenter {
-    /*width: 180px;*/
-    height: 17px;
-    margin-left:auto;
+.usTextTable {
+    margin-left: auto;
     margin-right: auto;
 }
 
 .usTextFirst,
 .usTextSecond {
-    -webkit-margin-before: 0;
-    -webkit-margin-after: 0;
+    margin:0;
+    padding: 0;
     font-size: 16px;
     font-style: italic;
     font-family: Arial, Helvetica, sans-serif;
-    display: inline-block;
+    letter-spacing: -0.9px;
 }
 
-.usTextSecond {
+
+
+.usTextSecond a {
     color: #689ffd;
+    text-decoration: none;
 }
 
 
@@ -157,51 +149,50 @@ td {
     opacity: 0.6;
     font-size: 12px;
     font-family: Arial, Helvetica, sans-serif;
+    height: 47px;
 }
 
 .socialCell {
+    vertical-align: top;
     text-align: center;
 }
 
-.social {
-    float: left;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    /*box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);*/
-    margin-right: 9px;
-    border: 1px solid rgba(0, 0, 0, 0.15);
-    box-sizing: border-box;
-}
-
-.social img {
-    display: block;
+.socialsTable {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 15px;
-    opacity: 0.6;
+}
+.socialsTable tr {
+    border: none;
+}
+
+.social {
+    padding-right:8px;
+}
+
+.vk {
+    /*padding-left:202px;*/
 }
 
 .ok img {
-    margin-top:12px;
 }
 
-.fb img {
-    margin-top: 13px;   
+.fb {
+    padding-right: 7px;
 }
 
 .socials {
-    width: 205px;
-    height: 48px;
     margin-left: auto;
     margin-right: auto;
 }
 .tw {
+    padding-right: 6px;
 }
 
 .footerRow {
     height: 125px;
     background-color: #f2f6fe;
+    box-sizing: border-box;
+    vertical-align: top;
 }
 
 .footerCell {
@@ -210,6 +201,9 @@ td {
     font-size: 14px;
     line-height: 24px;
     color: #9eb7cc;
+    letter-spacing: -0.1px;
+    padding-top: 25px;
+    
 }
 
 .footerCell .link {
