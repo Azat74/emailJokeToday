@@ -1,0 +1,217 @@
+.body {
+    background-color: #ffffff;
+    width: 100%;
+    height: 1500px;
+    align: center;
+}
+
+table {
+    border-collapse: collapse;
+    /*mso-table-lspace: 0;
+  mso-table-rspace: 0;*/
+    -webkit-border-horizontal-spacing: 0px;
+    -webkit-border-vertical-spacing: 0px;
+    padding: 0;
+}
+
+.tr {
+    -webkit-border-horizontal-spacing: 0px;
+    -webkit-border-vertical-spacing: 0px;
+    padding: 0;
+}
+
+td {
+    padding: 0;
+}
+
+.mainTable {
+    margin-left: auto;
+    margin-right: auto;
+    width: 826px;
+    height: 753px;
+    background-color: #ffffff;
+    border-left: 113px solid #f2f6fe;
+    border-right: 113px solid #f2f6fe;
+    border-top: 60px solid #f2f6fe;
+    vertical-align: top;
+}
+
+.header {
+    height: 120px;
+    vertical-align: bottom;
+}
+
+.header-cell {
+    text-align: center;
+}
+
+.height50px {
+    height: 50px;
+    width: 100%;
+}
+
+.height70px {
+    height: 70px;
+    width: 100%;
+}
+
+
+/*.height50px td {
+  height: 50px;
+}*/
+
+.headerTextRow {
+    height: 25px;
+}
+
+.headerTextCell {
+    height: 25px;
+}
+
+.headerTextCell p {
+    color: #434e58;
+    font-size: 18px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.mainTextRow {
+    height: 150px;
+}
+
+.mainTextCell {
+    height: 150px;
+}
+
+.mainTextCell p {
+    color: #434e58;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    line-height: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: -0.7px;
+}
+
+.quoteRow {
+    height: 48px;
+    /*border-top: 100px solid transparent;*/
+}
+
+.mainTextCell p {
+    content: "";
+    background-image: url("https://s26.postimg.org/w4v7809t5/quote.png");
+    background-repeat: no-repeat;
+    background-position-x: 70px;
+    /*background-position-y: -10px;*/
+    padding-top: 10px;
+    /*width: 560px;*/
+}
+
+.quoteCell img {
+    margin-bottom: -100px;
+    margin-left: 30px;
+}
+
+.usTextRow {
+    height: 17px;
+    text-align:center;
+    width:100%;
+}
+
+.usTextCell {
+    text-align:center;
+    width:100%;
+}
+
+.usTextCenter {
+    /*width: 180px;*/
+    height: 17px;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.usTextFirst,
+.usTextSecond {
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    font-size: 16px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+}
+
+.usTextSecond {
+    color: #689ffd;
+}
+
+
+
+.share {
+    text-align: center;
+    color: #63717d;
+    opacity: 0.6;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.socialCell {
+    text-align: center;
+}
+
+.social {
+    float: left;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    /*box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);*/
+    margin-right: 9px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    box-sizing: border-box;
+}
+
+.social img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    opacity: 0.6;
+}
+
+.ok img {
+    margin-top:12px;
+}
+
+.fb img {
+    margin-top: 13px;   
+}
+
+.socials {
+    width: 205px;
+    height: 48px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tw {
+}
+
+.footerRow {
+    height: 125px;
+    background-color: #f2f6fe;
+}
+
+.footerCell {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #9eb7cc;
+}
+
+.footerCell .link {
+    color: #9eb7cc;
+}
