@@ -50,16 +50,6 @@ td {
     width: 100%;
 }
 
-/*.height70px {
-    height: 70px;
-    width: 100%;
-}*/
-
-
-/*.height50px td {
-  height: 50px;
-}*/
-
 .headerTextRow {
     height: 25px;
 }
@@ -134,14 +124,10 @@ td {
     letter-spacing: -0.9px;
 }
 
-
-
 .usTextSecond a {
     color: #689ffd;
     text-decoration: none;
 }
-
-
 
 .share {
     text-align: center;
@@ -167,13 +153,6 @@ td {
 
 .social {
     padding-right:8px;
-}
-
-.vk {
-    /*padding-left:202px;*/
-}
-
-.ok img {
 }
 
 .fb {
