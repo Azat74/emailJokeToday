@@ -46,7 +46,7 @@ td {
 }
 
 .Row1 {
-    height: 60px;
+    height: 53px;
 }
 
 .Row1Cell1, .Row1Cell3, .Row2Cell1, .Row2Cell3, .Row3Cell1, .Row3Cell3 {
@@ -117,8 +117,10 @@ td {
 .headerCell {
     padding-left: 30px;
     font-size: 24px;
-    font-weight: 600;
+    font-weight: 500;
     letter-spacing: -1px;
+    color:black;
+    letter-spacing: 0.1px;
 }
 
 .descriptionRow {
@@ -216,12 +218,16 @@ td {
 
 .footerRow{
     vertical-align: bottom;
-    height: 46px;
+    height: 50px;
 }
 
 .footerRow2{
     vertical-align: bottom;
-    height: 50px;
+    height: 10px;
+}
+
+.footerCell {
+    letter-spacing: -0.3px;
 }
 
 .footerCell, .footerTableCell, .link {
