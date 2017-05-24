@@ -182,6 +182,7 @@ td {
     font-size: 16px;
     font-weight: 400;
     color: #9fc1fb;
+    text-decoration: underline;
 }
 
 .usTextRow {
@@ -217,13 +218,8 @@ td {
 }
 
 .footerRow{
-    vertical-align: bottom;
-    height: 50px;
-}
-
-.footerRow2{
-    vertical-align: bottom;
-    height: 10px;
+    vertical-align: top;
+    height: 70px;
 }
 
 .footerCell {
@@ -237,8 +233,8 @@ td {
     font-size: 14px;
 }
 
-.footerRow2 {
-    height: 10px;
+.link {
+    text-decoration: underline;
 }
 
 .margin53 {
